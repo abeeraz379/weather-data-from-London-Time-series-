@@ -27,8 +27,8 @@ This project loads daily weather data from London (sourced from Kaggle), cleans 
 
 | Feature | Method | Reason |
 |---|---|---|
-| `precipitation` | `.bfill()` | Fill from next available record |
-| `snow_depth` | `.bfill()` | Fill from next available record |
+| `precipitation` | `fillna(0)` | No record = no rain |
+| `snow_depth` | `fillna(0)` | No record = no snow |
 | `mean_temp`, `min_temp`, `max_temp` | `.interpolate()` | Temperature is continuous; interpolation gives the most realistic estimate |
 
 ---
