@@ -1,6 +1,6 @@
 # London Weather Data — Resampling Datetime Data
 
-A data analysis project using historical London weather data to practice datetime indexing, resampling, and visualization with pandas and matplotlib.
+#### A data analysis project using historical London weather data to practice datetime indexing, resampling, and visualization with pandas and matplotlib.
 ---
 
 ## Overview
