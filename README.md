@@ -1,7 +1,6 @@
 # London Weather Data — Resampling Datetime Data
 
 A data analysis project using historical London weather data to practice datetime indexing, resampling, and visualization with pandas and matplotlib.
-
 ---
 
 ## Overview
@@ -46,17 +45,3 @@ This project loads daily weather data from London (sourced from Kaggle), cleans 
 - Marked the coldest year with a vertical line and legend label
 
 ---
-
-## Dependencies
-
-```
-pandas
-matplotlib
-numpy
-```
-
----
-
-## How to Run
-
-Open the notebook in [Google Colab](https://colab.research.google.com/) and run all cells in order. No local installation required.
